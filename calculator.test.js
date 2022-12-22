@@ -1,4 +1,4 @@
-import calculator from './calculator.js';
+const Calculator = require( './calculator');
 
 //Arrange
 const calculator = new Calculator();

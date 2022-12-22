@@ -1,4 +1,4 @@
-import { stringLength, reverseString, capitalize } from './stringManipulation.js';
+const { stringLength, reverseString, capitalize } = require('./stringManipulation.js');
 
 describe ("string Length", () => {
   test("Should print the count of string character", () => {    
@@ -6,7 +6,7 @@ describe ("string Length", () => {
     const output = stringLength("microverse");
     
     //Assert
-    expect(output).toBe(6);
+    expect(output).toBe(10);
   });
 
   test("Check whether string length is between 1-10", () => {    
