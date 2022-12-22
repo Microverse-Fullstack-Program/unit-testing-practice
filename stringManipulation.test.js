@@ -1,6 +1,6 @@
-const { stringLength, reverseString, capitalize } = require("./stringManipulation.js");
+import { stringLength, reverseString, capitalize } from './stringManipulation.js';
 
-describe ("string Length), () => {
+describe ("string Length", () => {
   test("Should print the count of string character", () => {    
     //Act
     const output = stringLength("microverse");
@@ -34,7 +34,7 @@ test("Should output reversed string", () => {
   expect(output).toBe("esrevorcim");
 });
 
-describe ("capitalize the first character), () => {
+describe ("capitalize the first character", () => {
   test("Should caplitalize the first char", () => {    
     //Act
    const output = capitalize("microverse")
