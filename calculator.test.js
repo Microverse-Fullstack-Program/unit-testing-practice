@@ -1,5 +1,6 @@
 import calculator from './calculator.js';
 
+//Arrange
 const calculator = new Calculator();
 
 describe("Test add fucntion", () => {
